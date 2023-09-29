@@ -4,7 +4,13 @@ body {
     background-repeat: repeat;
     background-size: 200px 200px;
    }
-  
+
+h2 {
+    color: yellow;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
    h1 {
     color: white;
     font-family: 'Courier New', Courier, monospace;
@@ -13,6 +19,10 @@ body {
   h1 span {
     background-color: black;
   }
+
+h2 span {
+    background-color: purple;
+}
 
   p{
     color: white;
