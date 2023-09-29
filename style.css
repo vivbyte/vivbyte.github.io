@@ -1,0 +1,33 @@
+body {
+    background-image: url("/assets/img/ralblunt.PNG");
+    background-color: #cccccc;
+    background-repeat: repeat;
+    background-size: 200px 200px;
+   }
+  
+   h1 {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+  }
+  h1 span {
+    background-color: black;
+  }
+
+  p{
+    color: white;
+    text-align: center;
+    font-family: monospace;
+  }
+
+  p span { 
+    background-color: black;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
