@@ -41,3 +41,7 @@ h2 span {
     width: 50%;
   }
   
+  #ralsei {
+    max-width: 100%; /* Adjust this value to fit your layout */
+    height: auto;
+}
