@@ -40,7 +40,14 @@ h2 span {
     margin-right: auto;
   }
   
-  #ralsei {
-    max-width: 25.64%; /* Adjust this value to fit your layout */
+  #responsive-image {
+    max-width: 80%; /* Adjust for desktop */
     height: auto;
+}
+
+/* For the specific image on mobile screens */
+@media screen and (max-width: 768px) {
+    #responsive-image {
+        max-width: 100%; /* Adjust for mobile */
+    }
 }
