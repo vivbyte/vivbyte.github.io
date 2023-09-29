@@ -38,10 +38,9 @@ h2 span {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
   }
   
   #ralsei {
-    max-width: 35%; /* Adjust this value to fit your layout */
+    max-width: 25.64%; /* Adjust this value to fit your layout */
     height: auto;
 }
