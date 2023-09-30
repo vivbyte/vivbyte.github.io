@@ -64,5 +64,5 @@ h2 span {
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: -1; /* Place it behind other content */
+    z-index: 1; /* Place it behind other content */
 }
