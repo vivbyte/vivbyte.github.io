@@ -59,4 +59,10 @@ h2 span {
   background-size: 200px 200px;
   background-repeat: repeat; /* Set to repeat for tiling effect *
   /* Add any additional styles for your container here */
+     position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1; /* Place it behind other content */
 }
