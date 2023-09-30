@@ -4,6 +4,7 @@ body {
     background-repeat: repeat;
     cursor: url("/assets/img/cursor.webp"), auto;
     background-size: 200px 200px;
+    height: 100vh; /* Add this line */
    }
 
 h2 {
