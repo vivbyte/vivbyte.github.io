@@ -1,5 +1,5 @@
 body {
-    background-image: url("/assets/img/ralblunt.PNG");
+    background-image: url("/assets/img/twink.gif");
     background-color: darkslateblue;
     background-repeat: repeat;
     cursor: url("/assets/img/cursor.webp"), auto;
@@ -51,4 +51,11 @@ h2 span {
     #responsive-image {
         max-width: 100%; /* Adjust for mobile */
     }
+}
+
+.container {
+  background-image: url('/assets/img/ralblunt.PNG'); /* Replace with your image URL */
+  background-size: 200px 200px;
+  background-repeat: repeat; /* Set to repeat for tiling effect */
+  /* Add any additional styles for your container here */
 }
