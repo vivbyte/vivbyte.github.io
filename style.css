@@ -56,7 +56,7 @@ h2 span {
 
 .container {
   background-image: url('/assets/img/ralblunt.PNG'); /* Replace with your image URL */
-  background-size: cover;
+  background-size: 200px 200px;
   background-repeat: repeat; /* Set to repeat for tiling effect *
   /* Add any additional styles for your container here */
 }
