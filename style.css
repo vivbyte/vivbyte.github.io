@@ -26,13 +26,13 @@ h2 span {
     background-color: purple;
 }
 
-ul {
+li {
   color:white;
   font-family: 'Courier New', Courier, monospace;
   text-align: center;
 }
 
-ul span {
+li span {
   background-color: aqua;
 }
 
@@ -68,8 +68,4 @@ ul span {
   background-image: url('/assets/img/ralblunt.PNG'); /* Replace with your image URL */
   background-size: 200px 200px;
   background-repeat: repeat; /* Set to repeat for tiling effect *
-}
-
-.blue {
-  color: blue;
 }
