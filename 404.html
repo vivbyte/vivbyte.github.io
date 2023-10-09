@@ -21,9 +21,19 @@
 <body>
     <div class="container">
         <center>
-        <img src="/assets/ralsei-img/pixelhugs.jpeg" alt="AWWW SO CUTE!!!!" width="700" height="650"/>
-        <br />
-        <h1><span>Looks Like You're Lost!!</span></h1>
+                <style>
+                    model-viewer {
+              width: 800px;
+              height: 600px;
+            }
+                </style>
+                
+                <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"></script>
+                <center>
+
+                <model-viewer alt="A 3D Model Of A Plushie Of Ralsei From The Video Game Deltarune" src="/assets/mod/plushie.glb" shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+                </center>
+                <h1><span>it seems you've hit a dead end...</span></h1>
         <a class="buton" href="index.html">GET ME OUT OF THIS HELLHOLE!!!</a>
         </center>
     </div>
