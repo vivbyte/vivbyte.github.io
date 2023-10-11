@@ -1,9 +1,9 @@
 body {
-    background-image: url("/assets/img/twink.gif");
-    background-color: darkslateblue;
+    background-image: url("/assets/gif/bubbles.jpeg");
+    background-color: blue;
     background-repeat: repeat;
     cursor: url("/assets/img/cursor.webp"), auto;
-    background-size: 200px 200px;
+    background-size: 256px 256px;
     height: 100vh; /* Add this line */
    }
 
@@ -36,7 +36,7 @@ li span {
   background-color: aqua;
 }
 
-  p{
+  p {
     color: white;
     text-align: center;
     font-family: monospace;
