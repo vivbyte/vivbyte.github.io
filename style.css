@@ -8,13 +8,13 @@ body {
 
 h2 {
     color: yellow;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Pixelify Sans', sans-serif;
     text-align: center;
 }
 
    h1 {
     color: white;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Pixelify Sans', sans-serif;
     text-align: center;
   }
   h1 span {
@@ -27,7 +27,7 @@ h2 span {
 
 li {
   color:white;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Pixelify Sans', sans-serif;
   text-align: center;
 }
 
@@ -38,7 +38,7 @@ li span {
   p {
     color: white;
     text-align: center;
-    font-family: monospace;
+    font-family: 'Pixelify Sans', sans-serif;
   }
 
   p span { 
@@ -80,13 +80,13 @@ h3 span {
 h4 {
   color: white;
   text-align: center;
-  font-family: monospace;
+  font-family: 'Pixelify Sans', sans-serif;
 }
 
 h3 {
   color: white;
   text-align: center;
-  font-family: monospace;
+  font-family: 'Pixelify Sans', sans-serif;
 }
 
 
