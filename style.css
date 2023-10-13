@@ -68,3 +68,26 @@ li span {
   background-size: 200px 200px;
   background-repeat: repeat; 
 }
+
+h4 span { 
+  background-color: black;
+}
+
+h3 span { 
+  background-color: black;
+}
+
+h4 {
+  color: white;
+  text-align: center;
+  font-family: monospace;
+}
+
+h3 {
+  color: white;
+  text-align: center;
+  font-family: monospace;
+}
+
+
+
