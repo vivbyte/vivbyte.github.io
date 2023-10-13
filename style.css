@@ -1,9 +1,8 @@
 body {
-    background-image: url("/assets/gif/bubbles.jpeg");
-    background-color: blue;
+    background-image: url("/assets/img/abstract3.jpg");
+    background-color: magenta;
     background-repeat: repeat;
     cursor: url("/assets/img/cursor.webp"), auto;
-    background-size: 256px 256px;
     height: 100vh; /* Add this line */
    }
 
