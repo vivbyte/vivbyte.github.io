@@ -66,5 +66,5 @@ li span {
 .container {
   background-image: url('/assets/img/ralblunt.PNG'); /* Replace with your image URL */
   background-size: 200px 200px;
-  background-repeat: repeat; /* Set to repeat for tiling effect *
+  background-repeat: repeat; 
 }
