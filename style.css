@@ -3,8 +3,11 @@ body {
     background-color: black;
     background-repeat: repeat;
     cursor: url("/assets/img/cursor.cur"), auto;
-    height: 100vh; /* Add this line */
-   }
+    height: 100vh;
+    display: flex; /* Add this line */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
 
 h2 {
     color: yellow;
@@ -12,89 +15,94 @@ h2 {
     text-align: center;
 }
 
-   h1 {
+h1 {
     color: white;
     font-family: 'Pixelify Sans';
     text-align: center;
-  }
-  h1 span {
+}
+
+h1 span {
     background-color: black;
-  }
+}
 
 h2 span {
     background-color: purple;
 }
 
 li {
-  color:white;
-  font-family: 'Pixelify Sans';
-  text-align: center;
+    color: white;
+    font-family: 'Pixelify Sans';
+    text-align: center;
 }
 
 li span {
-  background-color: aqua;
+    background-color: aqua;
 }
 
-  p {
+p {
     color: white;
     text-align: center;
     font-family: 'Pixelify Sans';
-  }
+}
 
-  p span { 
+p span {
     background-color: black;
-  }
+}
 
-  .center {
+.center {
     display: block;
     margin-left: auto;
     margin-right: auto;
-  }
-  
-  #responsive-image {
-    max-width: 80%; /* Adjust for desktop */
+}
+
+#responsive-image {
+    max-width: 80%;
     height: auto;
 }
 
-/* For the specific image on mobile screens */
 @media screen and (max-width: 768px) {
     #responsive-image {
-        max-width: 100%; /* Adjust for mobile */
+        max-width: 100%;
     }
 }
 
 .container {
-  background-image: url('/assets/img/ralblunt.PNG'); /* Replace with your image URL */
-  background-size: 200px 200px;
-  background-repeat: repeat; 
+    background-image: url('/assets/img/ralblunt.PNG'); /* Replace with your image URL */
+    background-size: 200px 200px;
+    background-repeat: repeat;
 }
 
-h4 span { 
-  background-color: black;
+h4 span {
+    background-color: black;
 }
 
-h3 span { 
-  background-color: black;
+h3 span {
+    background-color: black;
 }
 
 h4 {
-  color: white;
-  text-align: center;
-  font-family: 'Pixelify Sans';
+    color: white;
+    text-align: center;
+    font-family: 'Pixelify Sans';
 }
 
 h3 {
-  color: white;
-  text-align: center;
-  font-family: 'Pixelify Sans';
+    color: white;
+    text-align: center;
+    font-family: 'Pixelify Sans';
 }
 
 .flex-container {
-  display: flex;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
 }
 
 .flex-container > div {
-  background-color: #f1f1f1;
-  margin: 10px;
-  padding: 20px;
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
 }
