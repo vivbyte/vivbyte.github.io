@@ -15,9 +15,6 @@ body {
     background-repeat: repeat;
     cursor: url("/assets/img/cursor.cur"), auto;
     height: 100vh;
-    display: flex; /* Add this line */
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
 }
 
 h2 {
