@@ -4,9 +4,9 @@ body {
     background-repeat: repeat;
     cursor: url("/assets/img/cursor.cur"), auto;
     height: 100vh;
-    display: flex; /* Add this line */
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h2 {
@@ -92,6 +92,21 @@ h3 {
     font-family: 'Pixelify Sans';
 }
 
+/* New styles for the flex container and stacked elements */
+.flex-container {
+    padding: 20px;
+    background-color: #cceeff;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-container .content {
+    max-width: 100%;
+    display: block;
+    margin-bottom: 10px;
+}
+
+
 .flex-container {
     display: flex;
     justify-content: center; /* Center horizontally */
@@ -105,4 +120,6 @@ h3 {
     background-color: #f1f1f1;
     margin: 10px;
     padding: 20px;
+     display: block; /* Make elements block-level for stacking */
+    margin-bottom: 10px; /* Add some space between stacked elements */
 }
