@@ -1,3 +1,14 @@
+@font-face {
+    font-family: stereolab;
+    src: url(assets/fnt/STEREOLA.TTF);
+  }
+
+  @font-face {
+    font-family: oper;
+    src: url(assets/fnt/8bitOperatorPlus8-Regular.ttf);
+  }
+
+
 body {
     background-image: url("/assets/img/bg_stars.gif");
     background-color: black;
@@ -11,13 +22,13 @@ body {
 
 h2 {
     color: yellow;
-    font-family: 'Pixelify Sans';
+    font-family: 'stereolab';
     text-align: center;
 }
 
 h1 {
     color: white;
-    font-family: 'Pixelify Sans';
+    font-family: 'stereolab';
     text-align: center;
 }
 
@@ -29,20 +40,10 @@ h2 span {
     background-color: purple;
 }
 
-li {
-    color: white;
-    font-family: 'Pixelify Sans';
-    text-align: center;
-}
-
-li span {
-    background-color: aqua;
-}
-
 p {
     color: white;
     text-align: center;
-    font-family: 'Pixelify Sans';
+    font-family: 'oper';
 }
 
 p span {
@@ -83,11 +84,11 @@ h3 span {
 h4 {
     color: white;
     text-align: center;
-    font-family: 'Pixelify Sans';
+    font-family: 'stereolab';
 }
 
 h3 {
     color: white;
     text-align: center;
-    font-family: 'Pixelify Sans';
+    font-family: 'stereolab';
 }
