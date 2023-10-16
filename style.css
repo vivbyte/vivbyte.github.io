@@ -1,12 +1,14 @@
 body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
     background-image: url("/assets/img/bg_stars.gif");
     background-color: black;
     background-repeat: repeat;
     cursor: url("/assets/img/cursor.cur"), auto;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 h2 {
@@ -67,7 +69,7 @@ p span {
 }
 
 .container {
-    background-image: url('/assets/img/ralblunt.PNG'); /* Replace with your image URL */
+    background-image: url('/assets/img/ralblunt.PNG');
     background-size: 200px 200px;
     background-repeat: repeat;
 }
@@ -93,33 +95,19 @@ h3 {
 }
 
 /* New styles for the flex container and stacked elements */
+.outer-container {
+    width: 410px;
+}
+
 .flex-container {
-    padding: 20px;
+    padding: 10px; /* Reduced padding for the flex container */
     background-color: #cceeff;
     display: flex;
     flex-direction: column;
 }
 
-.flex-container .content {
+.content {
     max-width: 100%;
     display: block;
-    margin-bottom: 10px;
-}
-
-
-.flex-container {
-    display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    background-color: #f1f1f1;
-    margin: 10px;
-    padding: 20px;
-}
-
-.flex-container > div {
-    background-color: #f1f1f1;
-    margin: 10px;
-    padding: 20px;
-     display: block; /* Make elements block-level for stacking */
-    margin-bottom: 10px; /* Add some space between stacked elements */
+    margin-bottom: 5px; /* Reduced margin between stacked elements */
 }
