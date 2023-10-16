@@ -1,8 +1,8 @@
 body {
-    background-image: url("/assets/img/twink.gif");
+    background-image: url("/assets/img/bg_stars.gif");
     background-color: black;
     background-repeat: repeat;
-    cursor: url("/assets/img/cursor.webp"), auto;
+    cursor: url("/assets/img/cursor.cur"), auto;
     height: 100vh; /* Add this line */
    }
 

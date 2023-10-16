@@ -5,70 +5,14 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
     	<meta charset="UTF-8">
 		<!-- favicons -->
-		<link rel="apple-touch-icon" sizes="180x180" href="/assets/favi/apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="/assets/favi/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="/assets/favi/favicon-16x16.png">
-		<link rel="manifest" href="/assets/favi/site.webmanifest">
-		<link rel="shortcut icon" href="/assets/favi/favicon.ico">
+		<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favi/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favi/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favi/favicon-16x16.png">
+		<link rel="manifest" href="/assets/img/favi/site.webmanifest">
+		<link rel="shortcut icon" href="/assets/img/favi/favicon.ico">
 		<meta name="msapplication-TileColor" content="#da532c">
-		<meta name="msapplication-config" content="/assets/favi/browserconfig.xml">
+		<meta name="msapplication-config" content="/assets/img/favi/browserconfig.xml">
 		<meta name="theme-color" content="#ffffff">
-
-		<script type="text/javascript">
-			// <![CDATA[
-			var speed=100; // speed colours change, 1 second = 1000
-			var glow=3; // can be set from '0' for no glow, to 10
-			var raincol=new Array("#ff0000", "#ff5500", "#ffaa00", "#ffff00", "#aaff00", "#55ff00", "#00ff00", "#00ff55", "#00ffaa", "#00ffff", "#00aaff", "#0055ff", "#0000ff", "#5500ff", "#aa00ff", "#ff00ff", "#ff00aa", "#ff0055"); // change the colours if you want to
-			var alink="http://www.mf2fm.com/rv/"; // page to link text to (set to ="" for no link)
-			
-			/****************************
-			*    Rainbow Text Effect    *
-			*(c)2003-13 mf2fm web-design*
-			*  http://www.mf2fm.com/rv  *
-			* DON'T EDIT BELOW THIS BOX *
-			****************************/
-			var rainbow, raintxt, raincnt=0;
-			
-			function addLoadEvent(funky) {
-			  var oldonload=window.onload;
-			  if (typeof(oldonload)!='function') window.onload=funky;
-			  else window.onload=function() {
-				if (oldonload) oldonload();
-				funky();
-			  }
-			}
-			
-			addLoadEvent(regenbogen);
-			
-			function regenbogen() { if (document.getElementById) {
-			  var i, rainbeau;
-			  rainbow=document.getElementById("rainbow");
-			  raintxt=rainbow.firstChild.nodeValue;
-			  while (rainbow.childNodes.length) rainbow.removeChild(rainbow.childNodes[0]);
-			  for (i=0; i<raintxt.length; i++) {
-				rainbeau=document.createElement("span");
-				rainbeau.setAttribute("id", "rain"+i);
-				rainbeau.appendChild(document.createTextNode(raintxt.charAt(i)));
-				if (alink) {
-				  rainbeau.style.cursor="pointer";
-				  rainbeau.onclick=function() { top.location.href=alink; }
-				}
-				rainbow.appendChild(rainbeau);
-			  }
-			  rainbow=setInterval ("raining()", speed);
-			}}
-			
-			function raining() {
-			  var i, c;
-			  for (i=0; i<raintxt.length; i++) {
-				c=raincol[(i+raincnt)%raincol.length];
-				document.getElementById("rain"+i).style.color=c;
-				if (glow) document.getElementById("rain"+i).style.textShadow=c+" 0px 0px "+glow+"px";
-			  }
-			  raincnt++;
-			}
-			// ]]>
-			</script>
 
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -84,34 +28,17 @@
 	
     			<center><img id="responsive-image" src="/assets/img/boxes/welcome.png" draggable="true"></center>
 				<div id="board">
-				<h2><span id="rainbow">i love ralsei with all my heart</span></h2>
+				<h1><span>i love ralsei with all my heart</span></h1>
 				</div>
 
-				<center><img id="responsive-image" src="/assets/img/ralsei/ralseibutler.jpg alt="ralsei such a cutie fr" width="400" height="350"></center>
+				<center><img id="responsive-image" src="/assets/img/ralsei/myman.jpeg" alt="ralsei such a cutie fr" width="400" height="350"></center>
 				<center>
 					<br>
 					<a href="/chat.html"><img id="responsive-image" src="/assets/img/banners/chatbox.gif" draggable="true" alt="CHAT WITH MEEEEEEEEEEEEEEE"></a>
 					<br>
 					<a href="https://vivbyte.123guestbook.com"><img id="responsive-image" src="/assets/img/banners/guestbook.gif" alt="MAKE YOUR MARK!!!!!" draggable="true"></a>
 				</center>
-				<br>
-				<h2><span id="rainbow">bio</span></h2>
-				<p><span id="rainbow">Hi there! My name is vivian and i'm a fem/catboy from Indiana that loves to tinker with electronics.</span></p>
-				<h3><span id="rainbow">interests</span></h3>
-				<h4><span id="rainbow">- marine biology (mainly whales)</span></h4>
-				<h4><span id="rainbow">- cybersecurity</span></h4>
-				<h4><span id="rainbow">- foss (free and open source software) stuff</span></h4>
-				<h4><span id="rainbow">- femboys</span></h4>
-				<h4><span id="rainbow">- catboys</span></h4>
-				<h4><span id="rainbow">- the furry fandom</span></h4>
-				<h4><span id="rainbow">- animal crossing (mainly new leaf)</span></h4>
-				<h4><span id="rainbow">- modding/jailbreaking/rooting/homebrewing things</span></h4>
-				<h4><span id="rainbow">- old web stuff</span></h4>
-				<h4><span id="rainbow">- deltarune and undertale</span></h4>
-				<h4><span id="rainbow">- silami</span></h4>
-				<h4><span id="rainbow">- sanrio</span></h4>
-				<h4><span id="rainbow">- web programming</span></h4>
-    		<center><img src="assets/bdge/pepper.gif" alt="I LOVE DR PEPPER" height="31" width="88"> <img src="assets/bdge/debian.GIF" alt="colorful kittes nyaaaaa :3" height="31" width="88"> <img src="/assets/bdge/undies.GIF" height="31" width="88"> <img src="/assets/bdge/cuddles.gif" alt="I AM ADDICTED TO CUDDLES" height="31" width="88"> <img src="/assets/bdge/hacker.gif" alt="HACKER POWERED" width="88" height="31"/> <img src="/assets/bdge/vocaloid.GIF" alt="vocaloid yay" height="31" width="88"> <img src="/assets/bdge/colorcats.gif" alt="colorful" width="88" height="31"> <img src="/assets/bdge/doom.GIF" alt="FIGHT TO YOUR DOOM!!" width="88" height="31"> <img src="/assets/bdge/catslover.gif" alt="i love cats" width="88" height="31"> <img src="/assets/bdge/gameboy.GIF" alt="I LOVE GAMEBOY" height="31" width="88"> <img src="/assets/bdge/homer.webp" alt="homer" height="31" width="88"> <img src="/assets/bdge/kawaii.GIF" alt="kawaii" height="31" width="88"> <img src="/assets/bdge/lain.webp" alt="lain" height="31" width="88"> <img src="/assets/bdge/linux.GIF" alt="I USE LINUX YAY" width="88" height="31"> <img src="/assets/bdge/miku.GIF" alt="miku is epic" height="31" width="88"> <img src="/assets/bdge/mozilla.GIF" alt="SUPPORT OPEN SOURCE" height="31" width="88"> <img src="/assets/bdge/n64.GIF" alt="n64 cool" height="31" width="88"> <img src="/assets/bdge/neko.GIF" alt="nya!" height="31" width="88"> <img src="/assets/bdge/pika.GIF" alt="neko" width="88" height="31"> <img src="/assets/bdge/pride.GIF" alt="lol" height="31" width="88"> <img src="/assets/bdge/acab.GIF" alt="abs" height="31" width="88"> <img src="/assets/bdge/albino.GIF" height="31" width="88"> <img src="/assets/bdge/antisocial.GIF" height="31" width="88"> <img src="/assets/bdge/ao3.GIF" height="31" width="88"> <img src="/assets/bdge/badhtml.GIF" height="31" width="88"> <img src="/assets/bdge/bestviewed.GIF" height="31" width="88"> <img src="/assets/bdge/bob.GIF" height="31" width="88"> <img src="/assets/bdge/death2twitter.GIF" width="88" height="31"> <img src="/assets/bdge/districts.GIF" height="31" width="88"> <img src="/assets/bdge/gnu.GIF" height="31" width="88"> <img src="/assets/bdge/hellokitty.GIF" height="31" width="88"> <img src="/assets/bdge/iforgor.GIF" height="31" width="88"> <img src="/assets/bdge/love2kill.GIF" height="31" width="88"> <img src="/assets/bdge/melody.PNG" height="31" width="88"> <img src="/assets/bdge/miaow.GIF" height="31" width="88"> <img src="/assets/bdge/missxp.GIF" height="31" width="88"> <img src="/assets/bdge/privacy.GIF" height="31" width="88"> <img src="/assets/bdge/pusheen.GIF" height="31" width="88"> <img src="/assets/bdge/roadkill.GIF" height="31" width="88"> <img src="/assets/bdge/shittyhtml.GIF" alt="shittyhtml" height="31" width="88"><img src="/assets/bdge/snowyfox.GIF" height="31" width="88"> <img src="/assets/bdge/stoned.GIF" height="31" width="88"> <img src="/assets/bdge/triplebob.GIF" height="31" width="88"> <img src="/assets/bdge/umm.GIF" width="88" height="31"> <img src="/assets/bdge/wii.GIF" height="31" width="88"> <img src="/assets/bdge/wannabe.webp" height="31" width="88"> <img src="/assets/bdge/cinnadance.GIF" height="31" width="88"> <img src="/assets/bdge/kriswheretf.GIF" height="31" width="88"> <img src="/assets/bdge/masto.PNG" height="31" width="88"> <img src="/assets/bdge/ralblunt.GIF" height="31" width="88"> <img src="/assets/bdge/toriel.PNG" height="31" width="88"> <img src="/assets/bdge/twopaws.png" height="31" width="88"> <img src="/assets/bdge/brothings.gif" height="31" width="88"> <img src="/assets/bdge/button.gif" alt="my button" height="31" width="88"> <img src="/assets/bdge/cc.png" height="31" width="88"> <img src="/assets/bdge/piracy.gif" height="31" width="88"> <img src="/assets/bdge/pictochat.gif" height="31" width="88"></center>
+    		<center><img src="assets/img/bdge/pepper.gif" alt="I LOVE DR PEPPER" height="31" width="88"> <img src="assets/img/bdge/debian.GIF" alt="colorful kittes nyaaaaa :3" height="31" width="88"> <img src="/assets/img/bdge/undies.GIF" height="31" width="88"> <img src="/assets/img/bdge/cuddles.gif" alt="I AM ADDICTED TO CUDDLES" height="31" width="88"> <img src="/assets/img/bdge/hacker.gif" alt="HACKER POWERED" width="88" height="31"/> <img src="/assets/img/bdge/vocaloid.GIF" alt="vocaloid yay" height="31" width="88"> <img src="/assets/img/bdge/colorcats.gif" alt="colorful" width="88" height="31"> <img src="/assets/img/bdge/doom.GIF" alt="FIGHT TO YOUR DOOM!!" width="88" height="31"> <img src="/assets/img/bdge/catslover.gif" alt="i love cats" width="88" height="31"> <img src="/assets/img/bdge/gameboy.GIF" alt="I LOVE GAMEBOY" height="31" width="88"> <img src="/assets/img/bdge/homer.webp" alt="homer" height="31" width="88"> <img src="/assets/img/bdge/kawaii.GIF" alt="kawaii" height="31" width="88"> <img src="/assets/img/bdge/lain.webp" alt="lain" height="31" width="88"> <img src="/assets/img/bdge/linux.GIF" alt="I USE LINUX YAY" width="88" height="31"> <img src="/assets/img/bdge/miku.GIF" alt="miku is epic" height="31" width="88"> <img src="/assets/img/bdge/mozilla.GIF" alt="SUPPORT OPEN SOURCE" height="31" width="88"> <img src="/assets/img/bdge/n64.GIF" alt="n64 cool" height="31" width="88"> <img src="/assets/img/bdge/neko.GIF" alt="nya!" height="31" width="88"> <img src="/assets/img/bdge/pika.GIF" alt="neko" width="88" height="31"> <img src="/assets/img/bdge/pride.GIF" alt="lol" height="31" width="88"> <img src="/assets/img/bdge/acab.GIF" alt="abs" height="31" width="88"> <img src="/assets/img/bdge/albino.GIF" height="31" width="88"> <img src="/assets/img/bdge/antisocial.GIF" height="31" width="88"> <img src="/assets/img/bdge/ao3.GIF" height="31" width="88"> <img src="/assets/img/bdge/badhtml.GIF" height="31" width="88"> <img src="/assets/img/bdge/bestviewed.GIF" height="31" width="88"> <img src="/assets/img/bdge/bob.GIF" height="31" width="88"> <img src="/assets/img/bdge/death2twitter.GIF" width="88" height="31"> <img src="/assets/img/bdge/districts.GIF" height="31" width="88"> <img src="/assets/img/bdge/gnu.GIF" height="31" width="88"> <img src="/assets/img/bdge/hellokitty.GIF" height="31" width="88"> <img src="/assets/img/bdge/iforgor.GIF" height="31" width="88"> <img src="/assets/img/bdge/love2kill.GIF" height="31" width="88"> <img src="/assets/img/bdge/melody.PNG" height="31" width="88"> <img src="/assets/img/bdge/miaow.GIF" height="31" width="88"> <img src="/assets/img/bdge/missxp.GIF" height="31" width="88"> <img src="/assets/img/bdge/privacy.GIF" height="31" width="88"> <img src="/assets/img/bdge/pusheen.GIF" height="31" width="88"> <img src="/assets/img/bdge/roadkill.GIF" height="31" width="88"> <img src="/assets/img/bdge/shittyhtml.GIF" alt="shittyhtml" height="31" width="88"><img src="/assets/img/bdge/snowyfox.GIF" height="31" width="88"> <img src="/assets/img/bdge/stoned.GIF" height="31" width="88"> <img src="/assets/img/bdge/triplebob.GIF" height="31" width="88"> <img src="/assets/img/bdge/umm.GIF" width="88" height="31"> <img src="/assets/img/bdge/wii.GIF" height="31" width="88"> <img src="/assets/img/bdge/wannabe.webp" height="31" width="88"> <img src="/assets/img/bdge/cinnadance.GIF" height="31" width="88"> <img src="/assets/img/bdge/kriswheretf.GIF" height="31" width="88"> <img src="/assets/img/bdge/masto.PNG" height="31" width="88"> <img src="/assets/img/bdge/ralblunt.GIF" height="31" width="88"> <img src="/assets/img/bdge/toriel.PNG" height="31" width="88"> <img src="/assets/img/bdge/twopaws.png" height="31" width="88"> <img src="/assets/img/bdge/brothings.gif" height="31" width="88"> <img src="/assets/img/bdge/button.gif" alt="my button" height="31" width="88"> <img src="/assets/img/bdge/cc.png" height="31" width="88"> <img src="/assets/img/bdge/piracy.gif" height="31" width="88"> <img src="/assets/img/bdge/pictochat.gif" height="31" width="88"> <img src="/assets/img/bdge/flatsei.gif" height="31" width="88"></center>
 			<br>
 			<br>
 		</div>
