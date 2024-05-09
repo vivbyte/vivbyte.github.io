@@ -10,12 +10,57 @@
 <body>
     <div class="info">
         <center>
-            <img src="assets/img/fem/5-seconds.webp">
+            <img id="randomImage">
             <h1>--vivian--</h1>
             <h4>gay, furry, femboy, braindead</h4>
             <p>"you like kissing boys don't you?"</p>
             <p>- boykisser</p>
         </center>
     </div>
+
+    <script>
+        // Array of image URLs
+        var imageList = [
+            "assets/img/fem/5-seconds.webp",
+            "assets/img/fem/20dollars.webp",
+            "assets/img/fem/thousandyardstare.webp",
+            "assets/img/fem/appendix.jpeg",
+            "assets/img/fem/boykisserandblahaj.webp",
+            "assets/img/fem/bunnuy.webp",
+            "assets/img/fem/comfy.webp",
+            "assets/img/fem/cookie.webp",
+            "assets/img/fem/gaypit.webp",
+            "assets/img/fem/grip.webp",
+            "assets/img/fem/holdingheart.webp",
+            "assets/img/fem/inlove.webp",
+            "assets/img/fem/bahhh.webp",
+            "assets/img/fem/leash.gif",
+            "assets/img/fem/lol.webp",
+            "assets/img/fem/pipebomb.jpeg",
+            "assets/img/fem/taken.webp",
+            "assets/img/fem/basicmath.webp",
+            "assets/img/fem/CLEANMYFUCKINGHOUSE.webp",
+            "assets/img/fem/crying.webp",
+            "assets/img/fem/discord.webp",
+            "assets/img/fem/dressmanly.webp",
+            "assets/img/fem/factory.webp",
+            "assets/img/fem/femboypet.webp",
+            "assets/img/fem/gaythoughts.webp",
+            "assets/img/fem/gym.webp",
+            "assets/img/fem/hiiii.webp",
+            "assets/img/fem/milk.webp",
+            "assets/img/fem/swedishmale.webp"
+        ];
+
+        // Function to select a random image URL from the list
+        function getRandomImage() {
+            var randomIndex = Math.floor(Math.random() * imageList.length);
+            var randomImage = imageList[randomIndex];
+            return randomImage;
+        }
+
+        // Set the src attribute of the image to a random image from the list
+        document.getElementById("randomImage").src = getRandomImage();
+    </script>
 </body>
 </html>
