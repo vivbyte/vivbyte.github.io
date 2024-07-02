@@ -26,3 +26,8 @@ body {
     max-width: 500px; /* Ensure the image fits within the box */
     height: auto; /* Maintain aspect ratio */
 }
+
+mark {
+    background-color: red;
+    color: white;
+  }
